@@ -1,0 +1,13 @@
+{
+    "version": 2,
+    "builds": [
+      {
+        "src": "frontend_for_portfolio_management/",
+        "use": "@vercel/static-build"
+      },
+      {
+        "src": "backend_for_portfolio_management/",
+        "use": "@vercel/node"
+      }
+    ]
+  }
